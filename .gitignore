@@ -1,0 +1,21 @@
+# === Node / React ===
+node_modules/
+build/
+dist/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Env / secrets ===
+.env
+.env.*
+*.pem
+*.ppk
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

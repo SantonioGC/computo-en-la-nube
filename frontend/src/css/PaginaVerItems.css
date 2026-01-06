@@ -1,0 +1,126 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f8ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paginaItems {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.sinSesion {
+  text-align: center;
+  padding: 40px;
+  
+}
+
+.volver1,
+.volver2 {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #bfb5ee;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 150ms;
+}
+
+.volver1:hover,
+.volver2:hover {
+  background-color: #a49bcc;
+}
+
+.sincuenta {
+  margin-top: 20px;
+}
+
+/* Encabezado de página */
+.headerCarrito {
+  background-color: #44424f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.accionesCarrito {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.botonVolver,
+.botonContinuar {
+  padding: 10px 20px;
+  background-color: #bfb5ee;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 150ms;
+}
+
+.botonVolver:hover,
+.botonContinuar:hover {
+  background-color: #a49bcc;
+}
+
+/* Buscador */
+.busquedaCarrito {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.busquedaCarrito input {
+  width: 60%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #958fb6;
+  border-radius: 6px;
+}
+
+.resumenCarrito {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.carritoCantidad {
+  font-weight: bold;
+  color: #44424f;
+}
+
+/* Lista de productos */
+.listaProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .busquedaCarrito input {
+    width: 90%;
+  }
+
+  .botonVolver,
+  .botonContinuar {
+    width: 100%;
+    text-align: center;
+  }
+}
+

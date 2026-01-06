@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #faf9ff;
+}
+
+.titulon {
+    background-color: #44424f;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .titulon h1{
+    color: white;
+    text-align: center;
+  }
+
+
+.login{
+    width: 400px;
+    background-color:#44424f ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   box-shadow: 7px 12px 39px;
+}
+.login p{
+    height: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.login a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.login a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+.login h3{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.controls{
+    width: 100%;
+    background-color: #36343f ;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    border: 2px solid #958fb6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: white;
+
+}
+.controls:hover{
+    border-color: #ebe7ff;
+    transition: 150ms;
+}
+
+
+
+.login .botonsote {
+    width: 100px;
+    border: none;
+    padding: 12px;
+    background-color: #bfb5ee;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;            
+    margin: 0 auto;          
+    text-align: center;
+    color: white;
+}
+
+.login .botonsote:hover {
+    background-color: #a49bcc;
+    
+    transition: 150ms;
+    cursor: pointer;          
+}
+
+.volver {
+
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bfb5ee;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 150ms;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+}
+
+
+.volver:hover{
+    background-color: #a49bcc;
+  }
+
+  .texto-peligrocito {
+    color: white;
+    font-size: 16px;
+  }

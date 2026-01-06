@@ -1,0 +1,171 @@
+[
+    {
+        "id": 1,
+        "nombre": "Mario Kart 8 Deluxe",
+        "precio": 1000.00,
+        "imgUrl": "https://m.media-amazon.com/images/I/71OMzvCrU4L._AC_UF1000,1000_QL80_.jpg"
+    
+    },
+    
+    {
+        "id": 2,
+        "nombre": "Super Mario Bros. Wonder",
+        "precio": 3000.00,
+        "imgUrl": "https://m.media-amazon.com/images/I/71n+VqkywjL._AC_UF1000,1000_QL80_.jpg"
+    
+    },
+    
+    
+    {
+        "id": 3 ,
+        "nombre": " Super Mario Maker 2" ,
+        "precio": 1200.00 ,
+        "imgUrl": "https://m.media-amazon.com/images/I/71WHPxzenhL.jpg"
+    },
+    
+    
+    {
+        "id": 4 ,
+        "nombre": "The Legend of Zelda: Breath of the Wild",
+        "precio": 1600,
+        "imgUrl": "https://m.media-amazon.com/images/I/81KGsbq8ekL._AC_UF1000,1000_QL80_.jpg"
+    },
+    
+    
+    {
+        "id": 5 ,
+        "nombre": "The Legend of Zelda: Tears of the Kingdom" ,
+        "precio": 1800,
+        "imgUrl": "https://cdn1.coppel.com/images/catalog/mkp/3483/3000/34831398-1.jpg"
+    },
+    
+    
+    {
+        "id": 6 ,
+        "nombre": "Kirby y la tierra perdida",
+        "precio": 1200,
+        "imgUrl": "https://m.media-amazon.com/images/I/81kfvGfF+SL.jpg"
+    
+    },
+    
+    
+    {
+        "id": 7 ,
+        "nombre": "Kirby Star Allies ",
+        "precio": 1000,
+        "imgUrl": "https://m.media-amazon.com/images/I/81RLx5geLkL.jpg"
+    },
+    
+    {
+        "id": 8 ,
+        "nombre":"Pokémon Escarlata" ,
+        "precio": 1800 ,
+        "imgUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/d/d5/latest/20220601144723/Car%C3%A1tula_Pok%C3%A9mon_Escarlata.png/520px-Car%C3%A1tula_Pok%C3%A9mon_Escarlata.png"
+    },
+    
+    
+    {
+        "id": 9 ,
+        "nombre": "Pokémon Purpura" ,
+        "precio": 1800 ,
+        "imgUrl": "https://images.wikidexcdn.net/mwuploads/wikidex/thumb/3/31/latest/20220601144858/Car%C3%A1tula_Pok%C3%A9mon_P%C3%BArpura.png/520px-Car%C3%A1tula_Pok%C3%A9mon_P%C3%BArpura.png"
+    },
+    
+    {
+        "id": 10 ,
+        "nombre": "The Binding of Isaac: Repetance"  ,
+        "precio": 800 ,
+        "imgUrl": "https://m.media-amazon.com/images/I/71Wg9FlCWbL._AC_UF1000,1000_QL80_.jpg"
+    },
+    
+    
+    {
+        "id": 11,
+        "nombre": "Super Smash Bros Ultimate",
+        "precio": 2000,
+        "imgUrl": "https://m.media-amazon.com/images/I/81qzH0RY3DS._AC_UF1000,1000_QL80_.jpg" 
+    },
+    
+    {
+        "id": 12,
+        "nombre": "Splatoon 3",
+        "precio": 1200,
+        "imgUrl": "https://m.media-amazon.com/images/I/71DOb-wD4fL.jpg"
+    },
+    
+    
+    {
+        "id": 13,
+        "nombre": "Super Mario Party",
+        "precio": 1200,
+        "imgUrl": "https://m.media-amazon.com/images/I/81qGjOM5i9S.jpg"
+    },
+    
+    
+    {
+        "id": 14 ,
+        "nombre": "Sonic Mania",
+        "precio": 1200,
+        "imgUrl": "https://m.media-amazon.com/images/I/71LH-+2vAjL.jpg"
+    },
+    
+    {
+        "id": 15 ,
+        "nombre":"Touhou Luna Nights" ,
+        "precio": 600,
+        "imgUrl": "https://m.media-amazon.com/images/I/81TWR4O7N+L.jpg"
+    },
+    
+    
+    {
+        "id": 16,
+        "nombre": "Princess Peach Showtime!",
+        "precio": 1200,
+        "imgUrl": "https://m.media-amazon.com/images/I/716bFBzEJgL._AC_UF1000,1000_QL80_.jpg"
+    },
+    
+    {
+        "id": 17,
+        "nombre": "Pokémon Leyendas Arecus" ,
+        "precio": 1500,
+        "imgUrl": "https://m.media-amazon.com/images/I/71NSivnAE6L._AC_UF1000,1000_QL80_.jpg"
+    },
+    
+    
+    {
+        "id": 18,
+        "nombre": "Touhou Koumakyou: The Embodiment of Scarlet Devil" ,
+        "precio": 600,
+        "imgUrl": "https://cdn2.steamgriddb.com/grid/259e10ac76c6182fce0967a2a7b0c38a.png"
+    },
+    
+    
+    {
+        "id": 19,
+        "nombre": "Touhou Youyoumu: Perfect Cherry Blossom",
+        "precio": 700,
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/52/Th07cover.jpg"
+    },
+    
+    
+    {
+        "id": 20,
+        "nombre": "Touhou Eiyashou: Imperishable Night",
+        "precio": 800,
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Th08cover.jpg"
+    },
+    {
+        "id": 21,
+        "nombre": "Fortnite",
+        "precio": 1800,
+        "imgUrl": "https://m.media-amazon.com/images/I/81PTIubiGML._AC_SL1481_.jpg"
+    },
+    {
+        "id": 22,
+        "nombre": "Valorant",
+        "precio": 1800,
+        "imgUrl": "https://gamelust.com/wp-content/uploads/2020/10/Valorant_boxart.png"
+    }
+    
+    
+    ]

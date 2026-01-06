@@ -1,0 +1,91 @@
+/* Contenedor principal */
+.CajadeItem {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px;
+  background-color: #f5f4ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 250px;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Nombre del producto */
+.CajadeItem div:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Imagen */
+.CajadeItem img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* Precio */
+.Precio {
+  font-size: 20px;
+  color: #44424f;
+  margin: 10px 0;
+}
+
+/* Botón para agregar */
+.BotonItem {
+  padding: 10px 16px;
+  margin-top: 10px;
+  background-color: #bfb5ee;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 150ms ease-in-out;
+}
+
+.BotonItem:hover {
+  background-color: #a49bcc;
+}
+
+/* Botón para eliminar */
+.botoneliminar {
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 150ms ease-in-out;
+}
+
+.botoneliminar:hover {
+  background-color: #c0392b;
+}
+
+/* Cantidad dentro del contenedor */
+.Itemporintem {
+  background-color: #bfb5ee;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* Responsive: ajusta el tamaño en pantallas pequeñas */
+@media (max-width: 600px) {
+  .CajadeItem {
+    max-width: 90%;
+    margin: 10px auto;
+  }
+
+  .Itemporintem {
+    margin: 10px auto;
+    display: inline-block;
+  }
+}

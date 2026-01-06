@@ -1,0 +1,108 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f9f8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Contenedor principal */
+  .pagina-carrito {
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Encabezado */
+  .carrito-header {
+    background-color: #44424f;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    border-radius: 6px;
+  }
+  
+  /* Resumen */
+  .carrito-resumen {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Lista */
+  .carrito-lista {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 30px;
+  }
+  
+  .carrito-lista h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #44424f;
+  }
+  
+  .carrito-lista ul {
+    list-style: none;
+  }
+  
+  .carrito-lista li {
+    padding: 10px;
+    background-color: #eceafc;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .producto-nombre {
+    font-weight: bold;
+  }
+  
+  .producto-cantidad {
+    color: #44424f;
+  }
+  
+  /* Botón */
+  .carrito-acciones {
+    margin-top: 20px;
+  }
+  
+  .boton-regreso {
+    padding: 12px 24px;
+    background-color: #bfb5ee;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 150ms;
+  }
+  
+  .boton-regreso:hover {
+    background-color: #a49bcc;
+  }
+  
+  /* Responsive */
+  @media (max-width: 500px) {
+    .carrito-resumen {
+      font-size: 18px;
+    }
+  
+    .carrito-lista li {
+      font-size: 16px;
+    }
+  
+    .boton-regreso {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sexo{
+    background-color: #44424f;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .sexo h1{
+    color: white;
+    text-align: center;
+  }
+
+
+
+
+.formulario{
+     width: 400px;
+     background-color:#44424f ;
+     padding: 30px;
+     margin: auto;
+     margin-top: 100px;
+     
+     border-radius: 4px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 7px 12px 39px;
+}
+
+.formulario h3{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controles{
+    width: 100%;
+    background-color: #36343f ;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    border: 2px solid #958fb6;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: white;
+
+}
+.controles:hover{
+    border-color: #ebe7ff;
+    transition: 150ms;
+}
+
+.formulario p{
+    height: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.formulario a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.formulario a:hover{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.formulario .botoncito {
+    width: 100px;
+    border: none;
+    padding: 12px;
+    background-color: #bfb5ee;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;            
+    margin: 0 auto;          
+    text-align: center;
+    color: white;
+}
+
+.formulario .botoncito:hover {
+    background-color: #a49bcc;
+    
+    transition: 150ms;
+    cursor: pointer;          
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white; 
+    font-size: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+  }
+  
+  .checkbox-container input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #bfb5ee; 
+    cursor: pointer;
+  }
+  
+  .pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .contenido {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 40px 10px; 
+    box-sizing: border-box;
+  }
+  
+
+  .pies {
+    background-color: #44424f;
+    padding: 30px;
+    width: 100%;
+  }
+  
+  .pies p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+
+  .regresar{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #bfb5ee;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 150ms;
+  top: -70px;
+  left: 30px;
+  position: relative;
+  }
+
+  .regresar:hover{
+    background-color: #a49bcc;
+  }
+
+  /* Diseño responsivo a la verga*/
+@media (max-width: 500px) {
+    .formulario {
+      width: 90%;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  
+    .formulario h3 {
+      font-size: 20px;
+    }
+  
+    .controles {
+      font-size: 16px;
+    }
+  
+    .formulario p {
+      font-size: 18px;
+    }
+  
+    .formulario .botoncito {
+      width: 100%;
+    }
+  
+    .regresar {
+      top: 10px;
+      left: 10px;
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    .pies p {
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+  

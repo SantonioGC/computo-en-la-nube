@@ -1,0 +1,76 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Encabezado con fondo oscuro y título centrado */
+.titulopat {
+    background-color: #44424f;
+    padding: 30px;
+    width: 100%;
+    position: relative; /* Necesario para que .bot se posicione respecto a este contenedor */
+}
+
+.titulopat h1 {
+    color: white;
+    text-align: center;
+}
+
+/* Botón posicionado dentro del encabezado */
+.bot {
+    position: absolute; /* Cambiado a absolute para fijarlo dentro de .titulopat */
+    top: 10px;
+    left: 50px;
+    font-weight: bold;
+
+}
+
+
+
+/* Contenedor de patrocinadores en 3 columnas */
+.patrocinamewe {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estilo para cada tarjeta de patrocinador */
+.patrocinadores {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+    background-color: #f8f8f8;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+
+}
+
+
+
+/* Imagen del patrocinador */
+.patrocinadores img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+/* Nombre del patrocinador */
+.patrocinadores div {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #333;
+}

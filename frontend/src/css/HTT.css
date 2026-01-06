@@ -1,0 +1,66 @@
+/* Contenedor general */
+.contenidito {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #44424f;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  /* Título */
+  .saigon h1 {
+    font-size: 3rem;
+    color: #d94fa0;
+    text-shadow: 2px 2px #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Imagen gif */
+  .HTT {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Sección del video */
+  .videito {
+    margin: 30px 0;
+    color: #333;
+    font-size: 1.1rem;
+  }
+
+  .videito p{
+    margin: 30px 0;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+  
+  
+  /* Video */
+  .videito video {
+    border-radius: 15px;
+    border: 2px solid #44424f;
+  }
+  
+  /* Botón de regreso */
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #bfb5ee;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #a49bcc;
+  }
+  

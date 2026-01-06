@@ -1,0 +1,121 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.Titulo{
+    background-color: #44424f;
+    padding: 20px;
+    width: 100%;
+    margin: 0;
+    border: none;
+}
+
+.Titulo h1 {
+    margin: 0; 
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .formato{
+    
+    width: 450px;
+    background-color:#44424f ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   box-shadow: 7px 12px 39px;
+  }
+
+  .nopuedes{
+    width: 450px;
+    height: 180px;
+    background-color:#44424f ;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   box-shadow: 7px 12px 39px;
+  }
+
+  .nopuedes p{
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #ffffff;
+  }
+  
+
+
+  .formato p{
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    color: #ffffff;
+  }
+
+  .botonito{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bfb5ee;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 150ms;
+  }
+
+  .botonito:hover{
+    background-color: #a49bcc;
+
+  }
+
+  .degeso{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bfb5ee;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 150ms;
+    top:30px;
+    left: 30px;
+    position: absolute;
+  }
+
+  .degeso:hover{
+    background-color: #a49bcc;
+
+
+  }
+
+  .ultimo{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bfb5ee;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 150ms;
+    margin-top: 30px;
+  }

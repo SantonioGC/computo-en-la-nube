@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "nombre": "Universidad Autonoma de Sinaloa",
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/UAS_logo.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Claudia Sheinbaum Pardo",
+        "imgUrl": "https://blob.luznoticias.mx/images/2022/11/06/whatsapp-image-2022-11-06-at-91917-am-728bd17e-focus-0-0-966-544.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Jesus Madueña Molina",
+        "imgUrl": "https://blob.luznoticias.mx/images/2021/05/21/jesusmaduena-focus-0-0-966-544.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Hokago Tea Time",
+        "imgUrl": "https://i.etsystatic.com/22360457/r/il/4927aa/2328309563/il_570xN.2328309563_q2wk.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "NASA",
+        "imgUrl": "https://ih1.redbubble.net/image.4820011390.8911/st,small,507x507-pad,600x600,f8f8f8.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Profesor Rodrigo García Carlos",
+        "imgUrl": "https://media.discordapp.net/attachments/1323479059878903809/1373423795070566483/Sin_titulo.webp?ex=682a5c15&is=68290a95&hm=8f0dad991a7a46553c44667b9b559c596c827d32d33672527318010daef7df60&=&format=webp&width=640&height=640"
+    },
+        {
+        "id": 7,
+        "nombre": "Tabla del 7",
+        "imgUrl": "https://i.pinimg.com/736x/3e/7b/7d/3e7b7dfb53fdf176f45e75e5363742e1.jpg"
+    },
+    {
+        "id": 8,
+        "nombre": "Cisco Packet Tracer",
+        "imgUrl": "https://alejandria.edu.uy/wp-content/uploads/2025/03/PacketTracer.png"
+    },
+        {
+        "id": 9,
+        "nombre": "Dr. Jorge Anselmo Rodriguez Castro",
+        "imgUrl": "https://scontent-qro1-1.xx.fbcdn.net/v/t39.30808-6/489622396_10212478883762709_8594807886346846219_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=MHOXhzmc9eUQ7kNvwFvFzcn&_nc_oc=Adln6pX1qjIaIVG2EytkV-6eDY76SiVe9JW8dBovAtCw1Rwm8sTi5ZpMm-I4hufkFNz1RR306doaQCYD0iccvAOD&_nc_zt=23&_nc_ht=scontent-qro1-1.xx&_nc_gid=UC1bxYWsi-K5NRc-hJA6fQ&oh=00_AfI2nwiPb6ZFMnmZ4uCzSdDcimIjU-0_TyxtEX0ktl8f5Q&oe=6832BA8B"
+    }
+
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Universidad Autonoma de Sinaloa",
+        "imgUrl": "https://m.media-amazon.com/images/I/71OMzvCrU4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Claudia Sheinbaum Pardo",
+        "imgUrl": "https://m.media-amazon.com/images/I/71OMzvCrU4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Jesus Madueña Molina",
+        "imgUrl": "https://m.media-amazon.com/images/I/71OMzvCrU4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Hokago Tea Time",
+        "imgUrl": "https://m.media-amazon.com/images/I/71OMzvCrU4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "NASA",
+        "imgUrl": "https://m.media-amazon.com/images/I/71OMzvCrU4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Profesor Rodrigo García Carlos",
+        "imgUrl": "https://media.discordapp.net/attachments/1323479059878903809/1373423795070566483/Sin_titulo.webp?ex=682a5c15&is=68290a95&hm=8f0dad991a7a46553c44667b9b559c596c827d32d33672527318010daef7df60&=&format=webp&width=640&height=640"
+    },
+    {
+        "id": 7,
+        "nombre": "Tabla del 7",
+        "imgUrl": "https://www.edufichas.com/wp-content/uploads/2021/05/tabla-del-7.png"
+    }
+]
